@@ -1,6 +1,6 @@
 {
   "name": "cubic-hermite",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Cubic hermite interpolation",
   "main": "hermite.js",
   "directories": {
@@ -8,10 +8,10 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "tap": "~0.4.1"
+    "tape": "^2.12.3"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
